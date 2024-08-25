@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Hardhat files
+cache/
+artifacts/
+
+# Environment variables
+.env
+
+# circom build files
+circuits/*.r1cs
+circuits/*.wasm
+circuits/*.zkey
+circuits/*.sym
+circuits/*.json
+circuits/*.dat
+circuits/pot*.ptau
+
+# Logs
+logs/
+*.log
+
+# MacOS-specific files
+.DS_Store
+
+# Coverage reports
+coverage/
+coverage.json
+
+# VSCode files
+.vscode/
+
+# Compiled files and other binary outputs
+*.r1cs
+*.zkey
+*.wtns
+*.ptau
+*.bin
+
+# npm lock file
+package-lock.json
+
